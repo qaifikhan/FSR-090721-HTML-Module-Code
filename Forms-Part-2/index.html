@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <h1>Forms</h1>
+    <form autocomplete="false">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <div>
+                <h3>Username</h3>
+                <input class="form-field" maxlength="8" minlength="4" type="text" autofocus required />
+            </div>
+            <div>
+                <input class="form-field" type="password" required />
+            </div>
+            <div>
+                <h3>Email Address <span class="required">*</span></h3>
+                <input class="form-field" type="email" />
+            </div>    
+            <div>
+                <h3>Age</h3>
+                <input type="number" max="30" min="18" />
+            </div>
+        </fieldset>
+
+        <select>
+            <optgroup label="BMW">
+                <option>x5</option>
+                <option>320d</option>
+                <option>m3 GTR</option>
+            </optgroup>
+
+            <optgroup label="Ferrari">
+                <option>Enzo</option>
+                <option>LaFerrari</option>
+                <option>Roma</option>
+            </optgroup>
+        </select>
+
+        <input list="students" />
+        <datalist id="students">
+            <option>Aryan</option>
+            <option>Hari</option>
+            <option>Suraj</option>
+            <option>Akshay</option>
+            <option>Monika</option>
+            <option>Komal</option>
+            <option>Yash</option>
+            <option>Kiran</option>
+        </datalist>
+
+        <input id="color-picker" type="color" name="fac-color" required />
+
+        <input type="date" />
+        <input type="datetime-local" />
+
+        <input type="week" />
+
+        <input type="hidden" name="username" value="qaifi"  />
+
+        <div style="text-align: center;">
+            <input type="submit" />
+
+            <input type="reset" />
+        </div>
+
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+</html>
