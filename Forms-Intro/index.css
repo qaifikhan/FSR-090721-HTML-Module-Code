@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+}
+
+#form-heading {
+    text-align: center;
+}
+
+#login-form {
+    width: 400px;
+    background-color: white;
+
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.form-field {
+    width: 100%;
+}
+
+#btn-login {
+    margin-top: 24px;
+}

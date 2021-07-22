@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms Intro</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <h1 id="form-heading">Forms Intro</h1>
+
+    <form id="login-form">
+        <h3>Full Name</h3>
+        <input class="form-field" type="text" name="full-name" placeholder="Full Name" />
+
+        <h3>Email Address</h3>
+        <input class="form-field" type="email" name="email-address" placeholder="Enter Email" />
+
+        <h3>Password</h3>
+        <input class="form-field" type="password" name="user-password" placeholder="Enter Password" />
+
+        <h3>Age</h3>
+        <input class="form-field" type="number" name="age" placeholder="Enter Age" />
+
+        <div>
+            <h3>Gender</h3>
+            <label>
+                <input type="radio" value="male" name="gender" />
+                <span>Male</span>
+            </label>
+
+            <label>
+                <input type="radio" value="female" name="gender" />
+                <span>Female</span>
+            </label>
+             
+            <label>
+                <input type="radio" value="others" name="gender" /> <span>Others</span>
+            </label>
+        </div>
+
+        <div>
+            <h3>What is your favourite Car</h3>
+            <select>
+                <option>911 Carerra</option>
+                <option>Tesla Model Y</option>
+                <option>Audi R8 Spyder</option>
+                <option>Rolls Royce Phantom</option>
+                <option>108 Ambulance</option>
+            </select>
+        </div>
+
+        <div>
+            <h3>Tell us about yourself</h3>
+            <textarea name="about"></textarea>
+        </div>
+
+        <div>
+            <label>
+                <input type="checkbox" />
+                <span>I accept all tnc</span>
+            </label>
+        </div>
+
+        <div>
+            <input id="btn-login" type="submit" value="Register" />
+        </div>
+    </form>
+</body>
+</html>
