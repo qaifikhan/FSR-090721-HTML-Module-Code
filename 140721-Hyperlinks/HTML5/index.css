@@ -10,8 +10,6 @@ body {
 }
 
 .menu-item {
-    /* inline-block */
-    display: inline-block;
     text-decoration: none;
     color: black;
     margin: 0 16px;
@@ -19,11 +17,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#video-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .video-card {
-    width: calc(25% - 16px - 3px);
+    width: calc(25% - 16px);
     box-shadow: 0 0 8px #ccc;
     border-radius: 10px;
-    display: inline-block;
     margin: 8px;
 }
 
